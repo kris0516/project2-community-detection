@@ -9,6 +9,10 @@ The final notebook is:
 
 [Project2_Community_Detection.ipynb](Project2_Community_Detection.ipynb)
 
+GitHub-rendered fallback:
+
+[Project2_Community_Detection.md](Project2_Community_Detection.md)
+
 GitHub notebook link:
 
 https://github.com/kris0516/project2-community-detection/blob/main/Project2_Community_Detection.ipynb
@@ -34,6 +38,8 @@ jupyter notebook Project2_Community_Detection.ipynb
 ```
 
 Run all notebook cells from top to bottom. Generated figures are saved in `figures/`, and the downloaded dataset is cached in `data/`.
+
+If GitHub's notebook preview temporarily fails, use the Markdown fallback above or download the `.ipynb` file and open it locally in Jupyter.
 
 ## Notes
 
