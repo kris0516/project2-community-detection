@@ -24,7 +24,13 @@ The saved notebook records 11 Louvain communities with modularity about 0.4009. 
 - Input: an undirected, unweighted graph loaded from the symmetric MatrixMarket file `socfb-Caltech36.mtx` inside the ZIP.
 - The loader creates all 769 nodes, ignores self-loops, and stores each undirected edge once. The source page lists approximately 33.3K edges; this analysis uses the 16,656 unique undirected edges represented by the `.mtx` file.
 
-The notebook reuses `data/socfb-Caltech36.zip` when present and downloads it if absent. The archive includes NetworkRepository's acknowledgement notice and a reference to Ryan A. Rossi and Nesreen K. Ahmed, *The Network Data Repository with Interactive Graph Analytics and Visualization* (AAAI 2015). Preserve that notice and consult the dataset page for additional source requirements.
+The notebook reuses `data/socfb-Caltech36.zip` when present and downloads it if absent. The archive's `readme.html` links to NetworkRepository and its [data policy](https://networkrepository.com/policy.php). The archive is retained unchanged, including its acknowledgement notice; graph loading and preprocessing are described above.
+
+The [dataset page](https://networkrepository.com/socfb_Caltech36.php) requests the following citations. Author names and publication details below follow that page's requested attribution; the two paper links lead to their arXiv records.
+
+- Ryan A. Rossi and Nesreen K. Ahmed. *The Network Data Repository with Interactive Graph Analytics and Visualization*. AAAI, 2015. [NetworkRepository](https://networkrepository.com/).
+- Amanda L. Traud, Peter J. Mucha, and Mason A. Porter. [*Social Structure of Facebook Networks*](https://arxiv.org/abs/1102.2166). *Physica A*, 391(16), 4165–4180, 2012. DOI: `10.1016/j.physa.2011.12.021`.
+- Amanda L. Traud, Eric D. Kelsic, Peter J. Mucha, and Mason A. Porter. [*Comparing Community Structure to Characteristics in Online Collegiate Social Networks*](https://arxiv.org/abs/0809.0690). *SIAM Review*, 53(3), 526–543, 2011. DOI: `10.1137/080734315`.
 
 ## Run locally
 
@@ -59,4 +65,6 @@ Run the cells in order when you want to reproduce the analysis. Package installa
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for reporting reproducibility issues, correcting explanations, or proposing a comparison on a shared graph. Include the commit, environment, graph scope, and commands used in an [issue](https://github.com/kris0516/project2-community-detection/issues) or pull request.
 
-No repository-level `LICENSE` file is currently included. The bundled dataset has separate source and acknowledgement requirements; its redistribution terms still need to be confirmed before choosing a project license. No license is granted by this README, and the existing archive is retained unchanged.
+**Repository code:** no repository-level `LICENSE` has been selected. The third-party data notices below do not select a license for this project's code.
+
+**Third-party data:** NetworkRepository's [Data Policy and License](https://networkrepository.com/policy.php), checked on 2026-10-28, states that its data use Creative Commons Attribution-ShareAlike (CC BY-SA) and permits copying, redistribution, and adaptation subject to its terms. Those terms require source credit and the requested citations, preservation of notices, disclosure of changes, and ShareAlike for adaptations. Neither that policy page nor the archive's notice specifies a license version, so this README assigns no version or SPDX identifier. The policy also states that it provides no warranties and may not cover every permission needed for a particular use. The archive and its original notices remain unchanged; this README does not relicense them.
