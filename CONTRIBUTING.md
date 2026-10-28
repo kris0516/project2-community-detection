@@ -14,4 +14,4 @@ Open a [GitHub issue](https://github.com/kris0516/project2-community-detection/i
 - Keep Louvain's current full-graph results distinct from Girvan–Newman's largest-component results. A new benchmark should define a shared graph, algorithm settings, and timing scope before comparing scores.
 - Include only output and figure changes needed for the contribution; avoid unrelated notebook metadata churn.
 
-Before submitting, run `git diff --check` and review the diff for unintended files or private output. This repository currently has no repository-level license. Keep the existing dataset archive and its notices intact; discuss new third-party data or licensing changes with the maintainer before including them.
+Before submitting, run `git diff --check` and review the diff for unintended files or private output. The [MIT License](LICENSE) covers the original code within the [README's license scope](README.md#license); third-party data, data-derived outputs, and other excluded material retain their applicable terms. Keep the existing dataset archive and its notices intact; discuss new third-party data or licensing changes with the maintainer before including them.

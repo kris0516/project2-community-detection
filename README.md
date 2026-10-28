@@ -61,10 +61,21 @@ Run the cells in order when you want to reproduce the analysis. Package installa
 | [data/socfb-Caltech36.zip](data/socfb-Caltech36.zip) | Existing third-party dataset archive |
 | [requirements.txt](requirements.txt) | Package minimum versions |
 
-## Contributions and licensing status
+## Contributions
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for reporting reproducibility issues, correcting explanations, or proposing a comparison on a shared graph. Include the commit, environment, graph scope, and commands used in an [issue](https://github.com/kris0516/project2-community-detection/issues) or pull request.
 
-**Repository code:** no repository-level `LICENSE` has been selected. The third-party data notices below do not select a license for this project's code.
+## License
+
+**Original code:** the [MIT License](LICENSE), copyright (c) 2026 kris0516, applies only to original code in this repository for which kris0516 owns the copyright. This includes original Python source in the code cells of `Project2_Community_Detection.ipynb` and corresponding original code excerpts in `Project2_Community_Detection.md`. The "Software" covered by that license refers to this original code, not the repository as a whole.
+
+**Excluded from this MIT grant:**
+
+- Third-party data, including `data/socfb-Caltech36.zip` and all files and notices inside it.
+- Saved notebook outputs, tables, embedded images, files in `figures/`, and other data-derived results or transformed datasets.
+- Narrative text and report content outside the original code, including the non-code portions of the notebook and its Markdown report; this code-only decision does not grant a separate documentation license.
+- Third-party libraries, third-party code, and jointly owned material without separate authorization. Their existing rights and applicable terms remain in place; this grant does not cover anyone else's rights.
+
+The existing data archive, notices, source acknowledgements, and paper references are preserved. The data and its derived outputs are not relicensed under MIT.
 
 **Third-party data:** NetworkRepository's [Data Policy and License](https://networkrepository.com/policy.php), checked on 2026-10-28, states that its data use Creative Commons Attribution-ShareAlike (CC BY-SA) and permits copying, redistribution, and adaptation subject to its terms. Those terms require source credit and the requested citations, preservation of notices, disclosure of changes, and ShareAlike for adaptations. Neither that policy page nor the archive's notice specifies a license version, so this README assigns no version or SPDX identifier. The policy also states that it provides no warranties and may not cover every permission needed for a particular use. The archive and its original notices remain unchanged; this README does not relicense them.
